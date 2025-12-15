@@ -1,0 +1,5 @@
+# Ignore the 'build' folder and everything within it
+node_modules/
+
+# Ignore environment variable files
+.env
