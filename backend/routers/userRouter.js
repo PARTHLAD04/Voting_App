@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const User = require('../models/User');
-const { authMiddleware, signToken } = require('../authMiddleware');
+const { authMiddleware,signToken } = require('../middleware/authMiddleware');
 
 router.post('/signup',async (req, res) => {
     const user = req.body;
